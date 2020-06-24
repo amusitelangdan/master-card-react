@@ -7,12 +7,11 @@ const config = [
     {
         path: "/login",
         component: Login,
-        // exact: true,
+        exact: true,
     },
     {
         path: "/home",
         component: Home,
-        // exact: true,
         children: [
             {
                 path: "/home/store",
