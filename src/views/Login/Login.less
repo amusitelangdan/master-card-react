@@ -1,0 +1,59 @@
+.login-box-wrapper {
+    position: relative;
+    text-align: left;
+    .bg-image {
+        width: 100%;
+        height: 100%;
+        display: block
+    }
+    .login-card {
+        position: absolute;
+        width: 417px;
+        height: 570px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .login-logo-image {
+            width: 260px;
+            height: 64px;
+            display: block;
+            margin: 0 auto;
+        }
+        .login-dialog {
+            width: 100%;
+            height: 417px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-sizing: border-box;
+            padding: 60px 40px;
+            margin-top: 55px;
+        }
+        .login-title {
+            color: #DC1320;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        .login-content {
+            margin-top: 20px;
+            .input-box {
+                margin-top: 20px;
+                position: relative;
+            }
+            .captcha-image {
+                position: absolute;
+                width: 100px;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+        .login-button {
+            width: 90%;
+            margin: 50px auto 0;
+            height: 40px;
+            display: block;
+        }
+    }
+}
